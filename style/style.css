@@ -1,0 +1,117 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 70px;
+    transition: .3s;
+}
+
+nav a:hover,
+nav a.active{
+    color: cadetblue;
+}
+
+section{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    color: #fff;
+}
+
+#home{
+    min-height: 100vh;
+}
+
+div#welcome{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translateX(-100px);
+    padding-bottom: 100px;
+}
+
+div#welcome h1{
+    font-size: 60px;
+}
+
+div.linha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+div.linha p {
+    margin: 0 16px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+div.linha::before,
+div.linha::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background: #fff;
+}
+
+div.linha::before {
+    margin-right: 5px;
+}
+
+div.linha::after {
+    margin-left: 5px;
+}
+
+.minha-foto{
+    height: 600px;
+    border-radius: 5px;
+    border: aliceblue 1px solid;
+}
+
+#about{
+    min-height: 80vh;
+    flex-direction: column;
+    padding: 20px;
+    justify-items: space-around;
+}
+.sobre{
+    padding: 20px;
+    max-width: 900px;
+    font-size: 25px;
+    background-color: #21252e;
+    border-radius: 10px;
+}
+
+#portfolio{
+    padding: 20px;
+    justify-content: space-around;
+}
+
+section:nth-child(odd){
+    background: #323946;
+}

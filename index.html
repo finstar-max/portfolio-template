@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header data-bs-spy="scroll" data-bs-target=".navegar">
+        <h1 class="logo">Arnaud Procopio Ferreira</h1>
+
+        <nav class="navegar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+
+
+    </header>
+    <section id="home">
+        <div id="welcome">
+            <p>Olá, visitante</p>
+            <h1><strong>Me chamo Arnaud </strong> </h1>
+            <div class="linha">
+                <p>Estudante de ciência da computação</p>
+            </div>
+        </div>
+        <img class="minha-foto" src="./imagens/eu.JPG" alt="">
+
+    </section>
+
+    <section id="about">
+        <h1 id="eu">Sobre mim</h1>
+        <br>
+        <div class="sobre">
+            <p>Sou um estudante de Ciência da Computação com foco em bancos de dados e grande interesse em transformar informações em soluções inteligentes. Tenho experiência prática com SQL e NoSQL, incluindo DynamoDB e MongoDB, aplicando esses conhecimentos em projetos como a criação de uma tabela chave-calor no DynamoDB para arquivar usuários e suas listas de filmes favoritos. Desenvolvi também um web commerce de flores, trabalhando com HTML, CSS e JavaScript, e utilizando ferramentas como Figma para projetar interfaces intuitivas e atrativas. Meu perfil é curioso e colaborativo, valorizo o trabalho em equipe e busco sempre integrar tecnologia, dados e design de forma funcional e eficiente. Estou me preparando para atuar como analista de dados, combinando habilidades técnicas, criatividade e atenção à experiência do usuário. Além disso, possuo nível de inglês B2, o que me permite acessar conteúdos e documentações internacionais com facilidade.</p>
+        </div>
+
+    </section>
+
+    <section id="portfolio">
+        <div class="card" style="width: 18rem;">
+            <img src="./imagens/json.jpeg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">FilmeDB</h5>
+                <p class="card-text">criação de usuarios para um banco de dados de sistema de filmes</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="./imagens/ZERO-run.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">ZERO-run</h5>
+                <p class="card-text">jogo no estilo dino run feito apenas com js</p>
+            </div>
+        </div>    
+
+        <div class="card" style="width: 18rem;">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./imagens/blog alta.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/cadastro-alta.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./imagens/catalogo.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">TropicalBlossom</h5>
+                <p class="card-text">web commerce de flores tropicais</p>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./style/script.js"></script>
+</body>
+</html>
